@@ -12,5 +12,5 @@
 ### delete user by id 
     node index --action="remove" --id <user_id>
 
-![Showcase] (https://github.com/Velorian-TDV/goit-nodejs-hw-1/screenshots/showcase.png)
+![Showcase](https://github.com/Velorian-TDV/goit-nodejs-hw-1/screenshots/showcase.png)
 https://monosnap.com/file/uad601l51jg6DxtTfy8LxQXeeKbutR

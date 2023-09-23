@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js",
+        "dev": "nodemon index.js"
     },
     "repository": {
         "type": "git",
@@ -15,5 +17,12 @@
     "bugs": {
         "url": "https://github.com/Velorian-TDV/goit-nodejs-hw-1/issues"
     },
-    "homepage": "https://github.com/Velorian-TDV/goit-nodejs-hw-1#readme"
+    "homepage": "https://github.com/Velorian-TDV/goit-nodejs-hw-1#readme",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "commander": "^11.0.0",
+        "nanoid": "^5.0.1"
+    }
 }
